@@ -13,7 +13,7 @@ from sklearn.metrics import mean_squared_error
 
 
 
-df = pd.read_csv("/Users/happy/Desktop/HDAG project/Affordable Housing by Town.zip", encoding='latin1')
+df = pd.read_csv("Affordable Housing by Town.zip", encoding='latin1')
 
 
 
