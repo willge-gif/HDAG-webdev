@@ -17,14 +17,10 @@ df = pd.read_csv("/Users/happy/Desktop/HDAG project/Affordable Housing by Town.z
 
 
 
-# st.title() makes a large title at the top of the page
+
 st.title("HDAG Homework - Check Your Housing Affordability!")
 
-# st.subheader() is a smaller heading
 st.subheader("Give us your info and we'll tell you if you can afford a house")
-
-# st.write() can display plain text or variables
-#st.write("This app displays many interactive elements that give insight into the data I analyzed.")
 
 st.header("Enter Your Info")
 name = st.text_input("What shall we call you?")
